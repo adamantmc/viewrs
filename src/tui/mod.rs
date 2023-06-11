@@ -62,6 +62,7 @@ impl DisplaySettings {
     pub fn window_resized(&mut self, window: &Window) {
         resize_term(0, 0); 
         self.page_size = window.get_max_y() as usize;
+        self.window_width = window.get_max_x() as usize;
         self.x_offset = 0; 
     }
 }
