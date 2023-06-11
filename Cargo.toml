@@ -1,6 +1,6 @@
 [package]
 name = "viewrs"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "CLI tool to query and display CSV files in the terminal"
 homepage = "https://github.com/adamantmc/viewrs"
